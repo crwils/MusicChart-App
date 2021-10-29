@@ -1,9 +1,31 @@
-.main-container {
+/* .main-container {
     display: flex;
     justify-content: space-between;
     background-color: blue;
-  }
+  } */
 
 body {
-    background-color: aqua;
+    background-color: #fff;
+    margin: 0;
+    display: inline-block;
   }
+
+.song-entry-wrapper{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(252, 235, 235);
+  margin: 0 auto 20px auto;
+  width: 75%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.details {
+  max-width: 70%;
+  vertical-align: top;
+  margin-left: 10px;
+}
